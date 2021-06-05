@@ -1,0 +1,40 @@
+.MainImageContent {
+  height: 40rem;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    URL("https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  padding-top: 21%;
+  position: relative;
+}
+h3 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 20px black;
+  z-index: 10;
+  color: white;
+  position: relative;
+}
+
+.LinkOnMainImage {
+  z-index: 50;
+  color: gold;
+  margin: 9px 9px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.LinkOnMainImage:hover {
+  color: rgb(255, 196, 0);
+}
+
+@media (max-width: 850px) {
+  h3 {
+    font-size: 2rem;
+  }
+  .MainImageContent {
+    height: 40rem;
+    padding-top: 16rem;
+  }
+}

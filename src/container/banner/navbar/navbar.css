@@ -1,0 +1,110 @@
+.Navbar {
+  background-color: transparent;
+  height: 4rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 0.9rem;
+  z-index: 10;
+}
+
+.NavLinks {
+  display: flex;
+  flex-flow: row;
+  margin-right: 5rem;
+  height: 70%;
+  text-align: center;
+  justify-content: center;
+}
+
+.NavLink {
+  height: 2.7rem;
+  width: 8rem;
+  padding: 12px;
+  padding-left: 16px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in;
+  text-shadow: 1px 1px 5px black;
+  cursor: pointer;
+  display: flex;
+}
+.NavLink:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+  width: 6.5rem;
+  height: 2.6rem;
+  margin: 10px auto;
+}
+.btn p {
+  color: rgb(114, 114, 114);
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+
+.LogoName {
+  height: 3rem;
+  width: 15rem;
+  margin: 5px;
+  margin-left: 10px;
+  text-align: center;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+  display: flex;
+}
+.LogoName svg {
+  margin-right: 5px;
+  margin-top: 3px;
+  transition: all 0.1s ease-in;
+}
+.LogoName svg:hover {
+  color: rgb(255, 196, 0);
+  transform: scale(1.1);
+}
+
+@media (max-width: 850px) {
+  .LogoName p {
+    display: none;
+  }
+  .NavLink p {
+    display: none;
+  }
+  .NavLink svg {
+    font-size: 1.2rem;
+  }
+  .NavLink {
+    width: 3.3rem;
+    padding-left: 7px;
+    padding-top: 9px;
+  }
+}
+
+@media (max-width: 400px) {
+  .NavLinks div {
+    display: none;
+  }
+  .Navbar {
+    height: 3rem;
+  }
+  .NavLinks {
+    margin-right: 2rem;
+  }
+  .LogoName svg {
+    font-size: 1.9rem;
+    margin-top: 0;
+  }
+}

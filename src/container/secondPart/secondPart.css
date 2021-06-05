@@ -1,0 +1,33 @@
+.SecondPart {
+  height: 90rem;
+  width: 100%;
+  background: white;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.FirstRow {
+  width: 100%;
+  height: 20rem;
+  display: block;
+}
+
+.container {
+  padding: 0;
+  width: 100%;
+  height: 70rem;
+  display: flex;
+  flex-flow: row;
+}
+
+.Col1 {
+  width: 49%;
+  height: 70rem;
+  margin: 0;
+}
+.Col2 {
+  width: 49%;
+  height: 70rem;
+  margin: 0;
+}
