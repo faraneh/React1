@@ -2,7 +2,7 @@ import React from 'react';
 import './navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faBars, faCaretDown, faHome, faLink, faMoneyBill} from "@fortawesome/free-solid-svg-icons";
+import {faBars, faHome, faLink, faMoneyBill} from "@fortawesome/free-solid-svg-icons";
 
 const navBar = () => {
         return ( 
