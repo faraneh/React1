@@ -2,4 +2,6 @@
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-flow: column;
+  max-width: 100%;
+  overflow: hidden;
 }
