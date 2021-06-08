@@ -27,7 +27,9 @@ class ThirdPart extends Component {
 
     rightClickHandler = () => {
         const length = this.state.comments.length;
-        if(this.state.thirdBox < length) { 
+        console.log(length);
+        console.log(this.state.thirdBox);
+        if(this.state.thirdBox < length - 1) { 
             this.setState( state => {
                 return {
                     firstBox: state.firstBox + 1,
@@ -43,6 +45,8 @@ class ThirdPart extends Component {
                     thirdBox: state.thirdBox + 1,
                 }
             });
+        } else {
+            this.setState({firstBox: 0, secondBox: 1, thirdBox: 2})
         }
     }
 
