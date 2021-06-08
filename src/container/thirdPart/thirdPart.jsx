@@ -68,6 +68,8 @@ class ThirdPart extends Component {
                     thirdBox: state.thirdBox - 1,
                 }
             });
+        } else {
+            this.setState({firstBox: length-3, secondBox: length-2, thirdBox: length-1})
         }
     }
 

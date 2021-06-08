@@ -2,6 +2,8 @@ import './App.css';
 import Banner from '../src/container/banner/banner';
 import SecondPart from '../src/container/secondPart/secondPart';
 import ThirdPart from '../src/container/thirdPart/thirdPart';
+import FourthPart from '../src/container/fourthPart/fourthPart';
+import Footer from '../src/container/footer/footer';
 
 function App() {
   return (
@@ -9,8 +11,8 @@ function App() {
       <Banner />
       <SecondPart />
       <ThirdPart />
-      <p>Contact us</p>
-      <p>footer</p>
+      <FourthPart />
+      <Footer />
     </div>
   );
 }
